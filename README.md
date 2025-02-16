@@ -53,3 +53,11 @@ rsync -a --checksum --verbose --delete --progress --exclude '.*' /home/barsukov/
 - Резервная копия должна создаваться раз в день, в системном логе должна появляться запись об успешном или неуспешном выполнении операции
 - Резервная копия размещается локально, в директории `/tmp/backup`
 - На проверку направить файл crontab и скриншот с результатом работы утилиты.
+
+```
+#!/bin/sh
+rsync -av --delete --exclude '.*' /home/popov/ /tmp/backup >> /var/log/crontab.log
+```
+<img src = "img/10_3_2_1.jpg" width = 100%>
+<img src = "img/10_3_2_2.jpg" width = 100%>
+
