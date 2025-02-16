@@ -43,7 +43,8 @@
 ```
 rsync -a --checksum --verbose --delete --progress --exclude '.*' /home/barsukov/ /tmp/backup
 ```
-<img src = "img/10_2_1_2.jpg" width = 100%>
+<img src = "img/10_3_1_1.jpg" width = 100%>
+<img src = "img/10_3_1_2.jpg" width = 100%>
 
 
 ### Задание 2
