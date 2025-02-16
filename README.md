@@ -56,7 +56,7 @@ rsync -a --checksum --verbose --delete --progress --exclude '.*' /home/barsukov/
 
 ```
 #!/bin/sh
-rsync -av --delete --exclude '.*' /home/popov/ /tmp/backup >> /var/log/crontab.log
+rsync -av --delete --exclude '.*' /home/barsukov/ /tmp/backup >> /var/log/crontab.log
 ```
 <img src = "img/10_3_2_1.jpg" width = 100%>
 <img src = "img/10_3_2_2.jpg" width = 100%>
